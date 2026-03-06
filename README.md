@@ -10,6 +10,15 @@ En este ejercicio se representa un único actor (Usuario) que puede encender y a
 
 ## Ejercicio 2 – Gestión de Tienda Online
 
-![Diagrama Ejercicio 2](Ejercicio1Entornos7.2.png)
+![Diagrama Ejercicio 2](Ejercicio2Entornos7.2.png)
 
 En este ejercicio se muestra cómo el caso de uso “Aplicar Cupón Descuento” es opcional y por tanto se modela como una extensión de “Comprar Producto”.
+
+
+## Ejercicio 3 – Plataforma de Streaming
+
+![Diagrama Ejercicio 3](Ejercicio3Entornos7.2.png)
+
+En este ejercicio se representan las relaciones <<include>> y <<extend>>. 
+“Validar Suscripción” es obligatorio para reproducir una película, mientras que “Activar Subtítulos” es opcional. 
+La Pasarela de Pagos actúa como actor externo en la renovación de la suscripción.
